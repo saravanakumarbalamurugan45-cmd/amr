@@ -1,0 +1,75 @@
+[0.014s] Invoking command in '/home/saravanakumar/my_ws/src/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/saravanakumar/my_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saravanakumar/my_ws/src/install/my_bot
+[0.214s] -- The C compiler identification is GNU 11.4.0
+[0.300s] -- The CXX compiler identification is GNU 11.4.0
+[0.313s] -- Detecting C compiler ABI info
+[0.397s] -- Detecting C compiler ABI info - done
+[0.403s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.403s] -- Detecting C compile features
+[0.405s] -- Detecting C compile features - done
+[0.409s] -- Detecting CXX compiler ABI info
+[0.500s] -- Detecting CXX compiler ABI info - done
+[0.507s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.507s] -- Detecting CXX compile features
+[0.507s] -- Detecting CXX compile features - done
+[0.512s] -- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.679s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.776s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.838s] -- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.941s] -- Added test 'copyright' to check source files copyright and LICENSE
+[0.958s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.960s] -- Added test 'lint_cmake' to check CMake code style
+[0.962s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.971s] -- Added test 'xmllint' to check XML markup files
+[0.973s] -- Configuring done
+[0.976s] -- Generating done
+[0.978s] -- Build files have been written to: /home/saravanakumar/my_ws/src/build/my_bot
+[0.982s] Invoked command in '/home/saravanakumar/my_ws/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/saravanakumar/my_ws/src/my_bot -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/saravanakumar/my_ws/src/install/my_bot
+[0.984s] Invoking command in '/home/saravanakumar/my_ws/src/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saravanakumar/my_ws/src/build/my_bot -- -j16 -l16
+[1.031s] Invoked command in '/home/saravanakumar/my_ws/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/saravanakumar/my_ws/src/build/my_bot -- -j16 -l16
+[1.044s] Invoking command in '/home/saravanakumar/my_ws/src/build/my_bot': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saravanakumar/my_ws/src/build/my_bot
+[1.054s] -- Install configuration: ""
+[1.054s] -- Execute custom install script
+[1.055s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/config/empty.yaml
+[1.064s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+[1.074s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/config/my_controllers.yaml
+[1.083s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/config/nav2_params.yaml
+[1.092s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/config/twist_mux.yaml
+[1.104s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/config/view_bot.rviz
+[1.114s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/description/camera.xacro
+[1.127s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/description/depth_camera.xacro
+[1.145s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/description/gazebo_control.xacro
+[1.156s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/description/inertial_macros.xacro
+[1.169s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/description/lidar.xacro
+[1.178s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/description/robot.urdf.xacro
+[1.188s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/description/robot_core.xacro
+[1.198s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/description/ros2_control.xacro
+[1.207s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/launch/dept_filter_node.py
+[1.219s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+[1.236s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/launch/rsp.launch.py
+[1.247s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/launch/rtabmap_launch.py
+[1.259s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/worlds/empty.world
+[1.268s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/worlds/obstacles.world
+[1.276s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/worlds/obstacles1.world
+[1.285s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/worlds/obstacles_2
+[1.297s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/lib/my_bot/dfs.py
+[1.307s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/lib/my_bot/bfs.py
+[1.324s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/lib/my_bot/A*.py
+[1.327s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/lib/my_bot/bug1.py
+[1.341s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/lib/my_bot/bug2.py
+[1.349s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/lib/my_bot/dijkstra.py
+[1.360s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+[1.369s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+[1.378s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+[1.386s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+[1.396s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/environment/path.sh
+[1.406s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/environment/path.dsv
+[1.416s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/local_setup.bash
+[1.432s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/local_setup.sh
+[1.441s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/local_setup.zsh
+[1.451s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/local_setup.dsv
+[1.461s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/package.dsv
+[1.470s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/ament_index/resource_index/packages/my_bot
+[1.480s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+[1.490s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+[1.498s] -- Symlinking: /home/saravanakumar/my_ws/src/install/my_bot/share/my_bot/package.xml
+[1.510s] Invoked command in '/home/saravanakumar/my_ws/src/build/my_bot' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/saravanakumar/my_ws/src/build/my_bot

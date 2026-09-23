@@ -1,0 +1,14 @@
+package.xml
+setup.py
+config/nav2_params.yaml
+launch/rtab_map.py
+my_robot_package/__init__.py
+my_robot_package/depth_filter_node.py
+my_robot_package.egg-info/PKG-INFO
+my_robot_package.egg-info/SOURCES.txt
+my_robot_package.egg-info/dependency_links.txt
+my_robot_package.egg-info/entry_points.txt
+my_robot_package.egg-info/requires.txt
+my_robot_package.egg-info/top_level.txt
+my_robot_package.egg-info/zip-safe
+resource/my_robot_package

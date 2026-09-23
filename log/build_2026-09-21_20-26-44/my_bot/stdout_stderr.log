@@ -1,0 +1,68 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 1.3.12 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found ament_lint_auto: 0.12.14 (/opt/ros/humble/share/ament_lint_auto/cmake)
+-- Added test 'copyright' to check source files copyright and LICENSE
+-- Added test 'flake8' to check Python code syntax and style conventions
+-- Added test 'lint_cmake' to check CMake code style
+-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+-- Added test 'xmllint' to check XML markup files
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/saravanakumar/my_ws/build/my_bot
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/config/empty.yaml
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/config/mapper_params_online_async.yaml
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/config/my_controllers.yaml
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/config/nav2_params.yaml
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/config/twist_mux.yaml
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/config/view_bot.rviz
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/description/camera.xacro
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/description/depth_camera.xacro
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/description/gazebo_control.xacro
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/description/inertial_macros.xacro
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/description/lidar.xacro
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/description/robot.urdf.xacro
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/description/robot_core.xacro
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/description/ros2_control.xacro
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/launch/launch_sim.launch.py
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/launch/rtabmap_launch.py
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/worlds/empty.world
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/worlds/obstacles.world
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/worlds/obstacles1.world
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/worlds/obstacles_2
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/lib/my_bot/dfs.py
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/lib/my_bot/bfs.py
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/lib/my_bot/A*.py
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/lib/my_bot/bug1.py
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/lib/my_bot/bug2.py
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/lib/my_bot/dijkstra.py
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/ament_index/resource_index/package_run_dependencies/my_bot
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/ament_index/resource_index/parent_prefix_path/my_bot
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.sh
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/environment/ament_prefix_path.dsv
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/environment/path.sh
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/environment/path.dsv
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/local_setup.bash
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/local_setup.sh
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/local_setup.zsh
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/local_setup.dsv
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/package.dsv
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/ament_index/resource_index/packages/my_bot
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/cmake/my_botConfig.cmake
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/cmake/my_botConfig-version.cmake
+-- Symlinking: /home/saravanakumar/my_ws/install/my_bot/share/my_bot/package.xml
