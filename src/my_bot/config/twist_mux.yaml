@@ -1,0 +1,15 @@
+twist_mux:
+  ros__parameters:
+    use_sim_time: true
+    output_topic: /diff_cont/cmd_vel_unstamped
+
+    topics:
+      navigation:
+        topic    : /cmd_vel_nav
+        timeout  : 3.0
+        priority : 100
+
+      keyboard:
+        topic    : /cmd_vel_teleop
+        timeout  : 3.0
+        priority : 10
