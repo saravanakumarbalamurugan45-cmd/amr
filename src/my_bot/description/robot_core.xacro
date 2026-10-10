@@ -151,11 +151,19 @@
         <mu2 value="0.001"/>
     </gazebo>  
 
-
-                    
-
-    
-
-    
+    <!-- Ground-truth pose publisher (Classic Gazebo).
+         Publishes the robot's true simulated pose, independent of any
+         odometry/SLAM estimate, for ATE/RPE evaluation. -->
+    <gazebo>
+        <plugin name="p3d_ground_truth" filename="libgazebo_ros_p3d.so">
+            <ros>
+                <remapping>odom:=ground_truth/odom</remapping>
+            </ros>
+            <body_name>base_link</body_name>
+            <frame_name>world</frame_name>
+            <update_rate>30.0</update_rate>
+            <gaussian_noise>0.0</gaussian_noise>
+        </plugin>
+    </gazebo>
 
 </robot>

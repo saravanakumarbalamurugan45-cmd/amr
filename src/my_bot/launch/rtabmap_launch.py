@@ -28,7 +28,6 @@ def generate_launch_description():
             'subscribe_rgb': True,
             'subscribe_scan': False,
             'subscribe_scan_cloud': False,
-            # --- FIXED: RAW INTEGERS TO PASS ROS2 PARAMETER TYPE VALIDATION ---
             'qos_image': 1,  # 1 = SensorData/BestEffort profile match
             'qos_depth': 1,  # 1 = SensorData/BestEffort profile match
             'qos_camera_info': 1,  # 1 = SensorData/BestEffort profile match
@@ -42,15 +41,18 @@ def generate_launch_description():
             'Grid/3D': 'true',
             'Grid/FromDepth': 'true',
             'Grid/CellSize': '0.05',
+            # Dynamic Clearing Configuration
             'Grid/RayTracing': 'true',
+            'Grid/EmptyRayTracing': 'true',  # Actively clear cells even if no obstacle is hit
             'Grid/3DObstacleClearance': 'true',
             'Grid/NormalsSegmentation': 'false',
             'Grid/MinGroundHeight': '-0.5',
-            'Grid/MaxObstacleHeight': '2.5',
+            'Grid/MaxObstacleHeight': '2.0',
             'Grid/RangeMin': '0.1',
-            'Grid/RangeMax': '5.0',
+            'Grid/RangeMax': '3.5',
+            'Grid/Scan2dUnknownSpaceFilled': 'true',
             'Cloud/VoxelSize': '0.05',
-            'Cloud/MaxDepth': '5.0',
+            'Cloud/MaxDepth': '3.5',
             'Cloud/MinDepth': '0.1',
         }
     ]
@@ -72,7 +74,6 @@ def generate_launch_description():
         name='point_cloud_xyzrgb',
         output='screen',
         parameters=[{'use_sim_time': use_sim_time, 'approx_sync': True}],
-        # Maps your custom raw camera fields directly to rtabmap's expected tracking keys
         remappings=[
             ('rgb/image_rect', '/camera/image_raw'),
             ('depth/image_rect', '/camera/depth/image_raw'),

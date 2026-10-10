@@ -17,6 +17,7 @@
 /home/saravanakumar/my_ws/install/my_bot/share/my_bot/launch/rsp.launch.py
 /home/saravanakumar/my_ws/install/my_bot/share/my_bot/launch/rtabmap_launch.py
 /home/saravanakumar/my_ws/install/my_bot/share/my_bot/worlds/empty.world
+/home/saravanakumar/my_ws/install/my_bot/share/my_bot/worlds/final.world
 /home/saravanakumar/my_ws/install/my_bot/share/my_bot/worlds/obstacles.world
 /home/saravanakumar/my_ws/install/my_bot/share/my_bot/worlds/obstacles1.world
 /home/saravanakumar/my_ws/install/my_bot/share/my_bot/worlds/obstacles_2
